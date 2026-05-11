@@ -33,6 +33,11 @@ common:
     url: https://www.pomerium.com/docs/
   - type: GitHub Organization
     url: https://github.com/pomerium
+  - type: Integrations
+    url: https://www.pomerium.com/integrations
+integrations:
+  - name: Pomerium
+  - name: SOC Badge
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
