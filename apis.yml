@@ -24,14 +24,14 @@ apis:
     properties:
       - type: Documentation
         url: https://www.pomerium.com/docs/
-      - type: Getting Started
+      - type: GettingStarted
         url: https://www.pomerium.com/docs/get-started
 common:
   - type: Website
     url: https://www.pomerium.com/
   - type: Documentation
     url: https://www.pomerium.com/docs/
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/pomerium
   - type: Integrations
     url: https://www.pomerium.com/integrations
