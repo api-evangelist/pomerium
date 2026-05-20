@@ -27,6 +27,8 @@ apis:
       - type: GettingStarted
         url: https://www.pomerium.com/docs/get-started
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/pomerium-inc
   - type: Website
     url: https://www.pomerium.com/
   - type: Documentation
