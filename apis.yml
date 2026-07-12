@@ -27,6 +27,8 @@ apis:
       - type: GettingStarted
         url: https://www.pomerium.com/docs/get-started
 common:
+  - type: DomainSecurity
+    url: security/pomerium-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/pomerium-inc
   - type: Website
@@ -43,6 +45,8 @@ common:
 integrations:
   - name: Pomerium
   - name: SOC Badge
+  - url: https://www.pomerium.com/blog
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
