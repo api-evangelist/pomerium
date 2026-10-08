@@ -50,6 +50,12 @@ apis:
       - type: GettingStarted
         url: https://www.pomerium.com/docs/get-started
 common:
+  - type: Plans
+    url: plans/pomerium-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/pomerium-rate-limits.yml
+  - type: FinOps
+    url: finops/pomerium-finops.yml
   - type: DomainSecurity
     url: security/pomerium-domain-security.yml
   - type: LinkedIn
