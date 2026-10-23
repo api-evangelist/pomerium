@@ -50,3 +50,50 @@
   relationship: platform-app
   status: not-a-workflow
   arazzo: null
+- slug: pomerium-arch-user-repository-aur
+  label: Arch User Repository (AUR)
+  partner_name: Arch User Repository (AUR)
+  category: official CLI (Arch User Repository (AUR))
+  type: register
+  channel: package-registry
+  evidence: https://aur.archlinux.org/packages/pomerium-cli
+  source: edge
+  relationship: distribution-channel
+  contract_reference:
+    register: Arch User Repository (AUR) (public package index)
+    spec_file: null
+    packages:
+    - name: pomerium-cli
+      kind: aur
+      version: 0.33.0-1
+      released: '2026-07-17'
+      released_field: AUR LastModified
+      out_of_date: false
+      lapsed: false
+      page: https://aur.archlinux.org/packages/pomerium-cli
+      upstream: https://github.com/pomerium/cli
+      cli: 'AUR description: CLI component for Pomerium'
+      repo_leg: github-org:pomerium
+      publisher_leg: artifact-github-org:pomerium
+      matched_by: github-org
+    - name: pomerium-cli-bin
+      kind: aur
+      version: 0.22.0-1
+      released: '2023-07-04'
+      released_field: AUR LastModified
+      out_of_date: false
+      lapsed: true
+      page: https://aur.archlinux.org/packages/pomerium-cli-bin
+      upstream: https://github.com/pomerium/cli
+      cli: 'AUR description: CLI component for Pomerium'
+      repo_leg: github-org:pomerium
+      publisher_leg: artifact-github-org:pomerium
+      matched_by: github-org
+    current: true
+    signal_note: 'the provider''s own command-line tool packaged for Arch Linux (community-maintained PKGBUILD whose
+      upstream and source artifact are the provider''s): distribution, not an integration; lapsed = flagged out-of-date
+      or not updated in 24 months'
+    detected_by: sweep-aur-vendor-cli-packages.py
+    detected: '2026-10-23'
+  status: not-a-workflow
+  arazzo: null
